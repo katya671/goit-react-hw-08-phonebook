@@ -25,8 +25,8 @@
 
 .form button {
   padding: 10px 20px;
-  background-color: #ea84a4;
-  color: #ffffff;
+  background-color: var(--main);
+  color: var(--lightest);
   border: none;
   border-radius: 5px;
   cursor: pointer;

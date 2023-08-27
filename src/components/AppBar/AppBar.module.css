@@ -19,7 +19,7 @@
 
 .link {
   text-decoration: none;
-  color: var(--text);
+  color: var(--main);
   font-size: 18px;
   margin-right: 20px;
   font-weight: 500;
@@ -27,5 +27,5 @@
 }
 
 .link:hover {
-  color: var(--main);
+  color: var(--main-hover);
 }
