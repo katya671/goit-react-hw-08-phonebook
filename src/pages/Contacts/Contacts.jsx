@@ -25,17 +25,11 @@ const Contacts = () => {
   return (
     <div className={css.container}>
       <h1 className={css.title}>Phonebook</h1>
-      {isLoggedIn ? (
-        <>
-          <ContactForm />
-          <h2 className={css.title}>Contacts</h2>
-          <Filter />
-          <ContactList />
-          {isLoading && !error && <Loader />}
-        </>
-      ) : (
-        <p className={css.message}>Register or Log In to view your contacts.</p>
-      )}
+      <ContactForm />
+      <h2 className={css.title}>Contacts</h2>
+      <Filter />
+      <ContactList />
+      {isLoading && !error && <Loader />}
     </div>
   );
 };

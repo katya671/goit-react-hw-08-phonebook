@@ -25,7 +25,7 @@ export const App = () => {
 
   return (
     <>
-      <ToastContainer theme="colored" autoClose={3000} hideProgressBar={true} />
+      <ToastContainer autoClose={3000} />
       {isRefreshing ? (
         <Loader />
       ) : (
