@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.email {
+  margin-right: 10px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: var(--main);
+  color: var(--lightest);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color var(--tra);
+}
+
+.button:hover {
+  background-color: var(--main-hover);
+}

@@ -1,0 +1,13 @@
+.delete-btn {
+  padding: 5px 10px;
+  background-color: var(--main);
+  color: var(--lightest);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color var(--tra);
+}
+
+.delete-btn:hover {
+  background-color: var(--main-hover);
+}

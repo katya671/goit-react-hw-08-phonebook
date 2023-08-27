@@ -1,0 +1,30 @@
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 600px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background-color: var(--lightest);
+  box-shadow: var(--shadow);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--main);
+}
+
+.message {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text);
+  transition: color var(--tra);
+}
+
+.link:hover {
+  color: var(--main);
+}
