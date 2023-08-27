@@ -21,10 +21,10 @@
 .link {
   text-decoration: none;
   font-weight: 500;
-  color: var(--text);
+  color: var(--main);
   transition: color var(--tra);
 }
 
 .link:hover {
-  color: var(--main);
+  color: var(--main-hover);
 }

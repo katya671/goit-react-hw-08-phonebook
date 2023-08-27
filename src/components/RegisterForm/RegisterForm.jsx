@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import css from '../Form.module.css';
 import { useDispatch } from 'react-redux';
 import { register } from 'redux/operations';

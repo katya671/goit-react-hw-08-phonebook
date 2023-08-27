@@ -6,7 +6,7 @@ import { refreshUser } from 'redux/operations';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectIsRefreshing } from 'redux/selectors';
 import Loader from './Loader/Loader';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PrivateRoute from './PrivateRoute';
 
